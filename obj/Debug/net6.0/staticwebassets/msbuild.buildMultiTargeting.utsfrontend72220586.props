@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\utsfrontend72220586.props" />
+</Project>

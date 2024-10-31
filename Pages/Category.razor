@@ -1,0 +1,20 @@
+@page "/categories"
+@inject CategoryService categoryService
+
+<h3>Category List</h3>
+
+<ul>
+    @foreach (var category in categories)
+    {
+        <li>@category.Name</li>
+    }
+</ul>
+
+@code {
+    private List<Category> categories = new List<Category>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await categoryService.GetCategories();
+    }
+}
