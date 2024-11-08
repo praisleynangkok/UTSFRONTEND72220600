@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using utsfrontend72220586.Data;
-using utsfrontend72220586.Services;
+using utsfrontend72220600.Data;
+using utsfrontend72220600.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
